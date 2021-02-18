@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+.product {
+    height: auto;
+    margin-bottom: 5%;
+}
+.card-img-top{
+    height: auto;
+}
+
+h1{
+    color: black;
+}
+
+.navbar{
+    background-color: #070606;
+    margin-bottom: 2.5%;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Lora', serif;
+}
+.navbar-brand:hover{
+    color: white;
+    font-family: 'Lora', serif; 
+    font-weight: bolder;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    font-weight: bolder;
+}
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    color: black;
+  }
+.titulo{
+    text-align: center;
+}
+
+html{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+} 
+body {
+background-position: fixed; /* Center the image */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
+.btn-primary{
+    background-color: #aa2727;font-family: 'Lora', serif;
+    border: 0px;
+}
+
+/***
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    font-size: 18px;
+    color: black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .swiper-slide .title {
+    font-size: 50px;
+    font-weight: 300;
+  }
+
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }***/
+
+/*******Slider*****/
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+
+}
+
+.contenido_swiper{
+  display: flex;
+}

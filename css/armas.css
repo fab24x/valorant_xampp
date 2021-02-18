@@ -1,0 +1,149 @@
+.card-title{
+    font-family: 'VALORANT Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VALORANT Regular'), url('Valorant Font.woff') format('woff');
+    /*src: url("/_css/Valoarnt Font.woff") format("woff");*/
+}
+
+
+.navbar{
+    background-color: #070606;
+    margin-bottom: 2.5%;
+}
+.navbar-brand{
+    color: white;
+    font-family: 'Lora', serif;
+}
+.navbar-brand:hover{
+    color: white;
+    font-family: 'Lora', serif; 
+    font-weight: bolder;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f57878;
+}
+
+.card {
+    border: 0px;
+    border-radius: 5px;
+    
+}
+.card:hover .overlay {
+  padding-left: 8px;
+  padding-right: 8px;
+  opacity: .9;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+/*
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    
+}
+
+col:hover .overlay {
+    opacity: 1;
+}
+
+.card{
+    border-radius: 15px;
+    border: 0px;
+}
+.card:hover .overlay {
+    opacity: 0.85;
+    border-radius: 15px;
+   
+}
+
+
+
+.overlay:hover{
+    opacity: 0.25;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(253, 119, 119);
+    height: 100%;
+    width: 100%;
+    transition: .5s ease;
+    
+}
+
+
+.text { 
+    color: white;
+    display: block;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+  }
+
+*/
+
+
+
+
+
+
+  
